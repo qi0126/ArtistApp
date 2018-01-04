@@ -1,0 +1,12 @@
+diff a/src/pages/index/index.vue b/src/pages/index/index.vue	(rejected hunks)
+@@ -3,10 +3,6 @@
+     <span>{{ $store.state.test }}</span>
+     <button @click="goNative">调用原生</button>
+     <img :src="img">
+-    <router-link to="/index/detail">跳转到子页面</router-link>
+-    <transition name="batar-changePage">
+-      <router-view class="batar-childPage"></router-view>
+-    </transition>
+   </div>
+ </template>
+ 
